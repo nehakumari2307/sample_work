@@ -1,0 +1,136 @@
+@font-face { font-family: Bogle; src: url('./css/font/Bogle_Fonts.001/OTF/Bogle-Regular.otf'); }
+@font-face { font-family: DushaV5; font-weight: bold; src: url('./css/font/dusha-v5-regular.ttf');}
+
+#container_contact {
+	height: 100%;
+	width: 100%;
+	/*opacity: 0.6;*/
+    background: url(./assests/img/Header.png);
+}
+
+#top-panel1 {
+	display: flex;
+}
+
+#icon {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.icon-image {
+	/*height: 7%;*/
+	width: 11.5%;
+	object-fit: contain;
+}
+
+#option {
+	width: 75%;
+}
+
+li {
+	height: 4%;
+  font-family: DushaV5;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.a-title {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar-right {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    -webkit-padding-start: 0px !important;
+    font-family: Bogle;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+#contact_box {
+	width: 96vw;
+  margin: 3vh 3vw 3vh 3vw;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.contact_name {
+	font-family: Bogle;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.contact_phone {
+	font-family: Bogle;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 5px 40px;
+}
+
+hr {
+	border: none;
+    border-left: 1px solid hsla(0, 10%, 50%,10);
+    height: 65vh;
+    width: 1px;
+    margin: 0px;
+}
+
+#contact_title {
+  font-family: DushaV5;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.contact-conatiner{
+  margin-top: 4vh;
+}
+
+.contact-conatiner .contact-block {
+  padding-top: 12vh;
+}
+
+.contact_option {
+  margin-bottom: 8vh;
+    padding-left: 9vw;
+}
+
+.sponsor-card {
+  margin-bottom: 4vh;
+}
